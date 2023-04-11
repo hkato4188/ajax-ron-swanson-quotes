@@ -1,50 +1,58 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
-
-body{
-    font-family: 'Roboto';
-    color: #2c3e50;
-    text-align: center;
-    margin: 10% 25%;
+body {
+  font-family: "Roboto";
+  color: #2c3e50;
+  text-align: center;
+  margin: 10% 25%;
+  background-color: lightgray;
 }
 
-#quote{
-    font-size: 20px;
+#quote {
+  font-size: 20px;
 }
 
-.container{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-button{
-    margin-top: 20px;
-    outline: none;
-    height: 40px;
-    text-align: center;
-    width: 130px;
-    border-radius: 40px;
-    background: #fff;
-    border: 2px solid red;
-    color: red;
-    letter-spacing: 1px;
-    text-shadow: 0;
-    font-size: 12px;
-    font-weight: bold;
-    cursor: pointer;
-    -webkit-transition: all 0.25s ease;
-    transition: all .25s ease;
-        font-family: 'Roboto', sans-serif;
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 20px;
+  background: #fff;
+  border: 2px solid red;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+
+  margin: 0 auto;
+  box-shadow: 0 6px #efa424;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  font-family: "Roboto", sans-serif;
 }
 
-button:hover{
-    color: white;
-    background: red;
+button:hover {
+  box-shadow: 0 4px #efa424;
+  top: 2px;
 }
 
-img{
-    border-radius: 50%;
-    border: solid black;
-
+button:active {
+  box-shadow: 0 0 #efa424;
+  top: 6px;
+}
+img {
+  border-radius: 50%;
+  border: solid black;
 }
