@@ -29,8 +29,7 @@ function handleErrors(res) {
   return res;
 }
 function parseJSON(res) {
-  let data = res.json();
-  return data;
+    return res.json();
 }
 function updateProfile(data) {
   quote.innerText = data[0];
