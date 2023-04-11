@@ -1,0 +1,1 @@
+This repo demonstrates 4 different ways to implement an AJAX request.
