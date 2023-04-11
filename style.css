@@ -52,7 +52,8 @@ button:active {
   box-shadow: 0 0 #efa424;
   top: 6px;
 }
-img {
+#ron {
   border-radius: 50%;
   border: solid black;
 }
+
